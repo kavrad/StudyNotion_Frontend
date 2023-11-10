@@ -124,7 +124,13 @@ module.exports = {
         900: "#141414",
       },
     },
-    extend: {},
+    
+    extend: {
+      boxShadow:{
+        '3xl':"0px -1px 0px 0px rgba(255, 255, 255, 0.18) inset",
+         '4xl':"-0.5px -1.5px 0px 0px rgba(0, 0, 0, 0.12) inset"
+      }
+    },
   },
   plugins: [],
 };
